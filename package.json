@@ -1,0 +1,16 @@
+{
+  "name": "documentationjs-issue-repro",
+  "version": "1.0.0",
+  "description": "Reproduction for the documentationjs issue",
+  "main": "src/index.js",
+  "scripts": {
+    "docs:notheme": "documentation build --github -o docs -f html -c ./.documentation.json",
+		"docs:theme": "npm run docs:notheme -- --theme ./default-theme"
+  },
+  "keywords": [],
+  "author": "Max Stoiber <contact@mxstbr.com> (http://mxstbr.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "documentation": "^4.0.0-beta16"
+  }
+}
